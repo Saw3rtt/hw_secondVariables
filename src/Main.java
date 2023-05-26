@@ -29,10 +29,23 @@ public class Main {
         short totalPaper = 480;
         int totalStudents = totalPaper / (firstTeacher + secondTeacher + thirdTeacher);
         System.out.println("На каждого ученика рассчитано " + totalStudents + " листов бумаги");
+        System.out.println();
 
-
-
-
+        byte machinePerformance = 16;
+        byte machineWorkTime = 2;
+        byte timeWork = 20;
+        short timeWork_2 = 24 * 60;
+        short timeWork_3 = 3 * 24 * 60;
+        int timeWork_4 = 30 * 24 * 60;
+        int bottlePerformance = machinePerformance * timeWork / machineWorkTime;
+        int bottlePerformance_1 = machinePerformance * timeWork_2 / machineWorkTime;
+        int bottlePerformance_2 = machinePerformance * timeWork_3 / machineWorkTime;
+        int bottlePerformance_3 = machinePerformance * timeWork_4 / machineWorkTime;
+        System.out.println("За " + timeWork + " минут машина произвела " + bottlePerformance + " бутылок");
+        System.out.println("За " + timeWork_2 + " минут машина произвела " + bottlePerformance_1 + " бутылок");
+        System.out.println("За " + timeWork_3 + " минут машина произвела " + bottlePerformance_2 + " бутылок");
+        System.out.println("За " + timeWork_4 + " минут машина произвела " + bottlePerformance_3 + " бутылок");
+        System.out.println();
 
 
 
