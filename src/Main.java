@@ -3,7 +3,7 @@ public class Main {
         int bananaVasya = 555555555;
         byte bananaOleg = 100;
         short bananaValery = 30000;
-        long bananaIgor = 900000000;
+        long bananaIgor = 9000000000000L;
         float bananaMisha = 3.666f;
         double bananaOlya = 5.66644444;
         System.out.println(bananaVasya);
