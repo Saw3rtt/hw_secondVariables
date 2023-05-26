@@ -21,6 +21,18 @@ public class Main {
         short fifthMeaning = -159;
         short sixthValue = 27897;
         byte seventhMeaning = 67;
+        System.out.println();
+
+        byte firstTeacher = 23;
+        byte secondTeacher = 27;
+        byte thirdTeacher = 30;
+        short totalPaper = 480;
+        int totalStudents = totalPaper / (firstTeacher + secondTeacher + thirdTeacher);
+        System.out.println("На каждого ученика рассчитано " + totalStudents + " листов бумаги");
+
+
+
+
 
 
 
