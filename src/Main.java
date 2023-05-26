@@ -50,7 +50,7 @@ public class Main {
         byte totalCans = 120;
         byte whitePaintPerClass = 2;
         byte brownPaintPerClass = 4;
-        int schoolClasses = 120/(whitePaintPerClass + brownPaintPerClass);
+        int schoolClasses = totalCans/(whitePaintPerClass + brownPaintPerClass);
         int whitePaint = whitePaintPerClass * schoolClasses;
         int brownPaint = brownPaintPerClass * schoolClasses;
         System.out.println("В школе, где " + schoolClasses + " классов, нужно " + whitePaint + " банок белой краски и " + brownPaint + " банок коричневой краски.");
