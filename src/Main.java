@@ -12,6 +12,17 @@ public class Main {
         System.out.println(bananaIgor);
         System.out.println(bananaMisha);
         System.out.println(bananaOlya);
+        System.out.println();
+
+        float firstValue = 27.12f;
+        long secondValue = 987_678_965_549l;
+        float thirdMeaning = 2.786f;
+        short fourthMeaning = 569;
+        short fifthMeaning = -159;
+        short sixthValue = 27897;
+        byte seventhMeaning = 67;
+
+
 
     }
 }
