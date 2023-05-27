@@ -75,6 +75,19 @@ public class Main {
         System.out.println(fastLoss + " дней");
         System.out.println();
 
+        int salaryMasha = 67760;
+        int salaryDenis = 83690;
+        int salaryKristina = 76230;
+        byte salaryIncrease = 10;
+        int newSalaryMasha = salaryMasha / salaryIncrease + salaryMasha;
+        int newSalaryDenis = salaryDenis / salaryIncrease + salaryDenis;
+        int newSalaryKristina = salaryKristina / salaryIncrease + salaryKristina;
+        int differenceMasha = newSalaryMasha - salaryMasha;
+        int differenceDenis = newSalaryDenis - salaryDenis;
+        int differenceKristina = newSalaryKristina - salaryKristina;
+        System.out.println("Маша теперь получает " + newSalaryMasha + " рублей. Годовой доход вырос на " + differenceMasha + " рублей.");
+        System.out.println("Денис теперь получает " + newSalaryDenis + " рублей. Годовой доход вырос на " + differenceDenis + " рублей.");
+        System.out.println("Кристина теперь получает " + newSalaryKristina + " рублей. Годовой доход вырос на " + differenceKristina + " рублей.");
 
     }
 }
