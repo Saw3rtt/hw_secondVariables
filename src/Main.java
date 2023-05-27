@@ -1,3 +1,5 @@
+import java.util.Locale;
+
 public class Main {
     public static void main(String[] args) {
         int bananaVasya = 555555555;
@@ -78,16 +80,16 @@ public class Main {
         int salaryMasha = 67760;
         int salaryDenis = 83690;
         int salaryKristina = 76230;
-        byte salaryIncrease = 10;
-        int newSalaryMasha = salaryMasha / salaryIncrease + salaryMasha;
-        int newSalaryDenis = salaryDenis / salaryIncrease + salaryDenis;
-        int newSalaryKristina = salaryKristina / salaryIncrease + salaryKristina;
-        int differenceMasha = newSalaryMasha - salaryMasha;
-        int differenceDenis = newSalaryDenis - salaryDenis;
-        int differenceKristina = newSalaryKristina - salaryKristina;
-        System.out.println("Маша теперь получает " + newSalaryMasha + " рублей. Годовой доход вырос на " + differenceMasha + " рублей.");
-        System.out.println("Денис теперь получает " + newSalaryDenis + " рублей. Годовой доход вырос на " + differenceDenis + " рублей.");
-        System.out.println("Кристина теперь получает " + newSalaryKristina + " рублей. Годовой доход вырос на " + differenceKristina + " рублей.");
+        double salaryIncrease = 1.1;
+        double newSalaryMasha = salaryMasha * salaryIncrease ;
+        double newSalaryDenis = salaryDenis * salaryIncrease ;
+        double newSalaryKristina = salaryKristina * salaryIncrease;
+        double differenceMasha = newSalaryMasha - salaryMasha;
+        double differenceDenis = newSalaryDenis - salaryDenis;
+        double differenceKristina = newSalaryKristina - salaryKristina;
+        System.out.printf(Locale.US, "Маша теперь получает %.2f рублей. Годовой доход вырос на %.2f  рублей%n",newSalaryMasha,differenceMasha );
+        System.out.printf(Locale.US, "Денис теперь получает  %.2f рублей. Годовой доход вырос на %.2f рублей%n",newSalaryDenis,differenceDenis);
+        System.out.printf(Locale.US, "Кристина теперь получает %.2f рублей. Годовой доход вырос на %.2f рублей%n",newSalaryKristina,differenceKristina);
 
     }
 }
