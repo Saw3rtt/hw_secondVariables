@@ -64,6 +64,16 @@ public class Main {
         float kilogramsWeight = totalWeight / 1000f;
         System.out.println(totalWeight + " грамм");
         System.out.println(kilogramsWeight + " килограмм");
+        System.out.println();
+
+        short lossWeight = 7 * 1000;
+        short minReset = 250;
+        short maxReset = 500;
+        int slowLoss = lossWeight / minReset;
+        int fastLoss = lossWeight / maxReset;
+        System.out.println(slowLoss + " дней");
+        System.out.println(fastLoss + " дней");
+        System.out.println();
 
 
     }
