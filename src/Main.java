@@ -54,6 +54,16 @@ public class Main {
         int whitePaint = whitePaintPerClass * schoolClasses;
         int brownPaint = brownPaintPerClass * schoolClasses;
         System.out.println("В школе, где " + schoolClasses + " классов, нужно " + whitePaint + " банок белой краски и " + brownPaint + " банок коричневой краски.");
+        System.out.println();
+
+        short bananaWeight = 5 * 80;
+        short milkWeight = 200 / 100 * 105;
+        short iceCreamWeight = 2 * 100;
+        short eggsWeight = 4 * 70;
+        int totalWeight = bananaWeight + milkWeight  + iceCreamWeight + eggsWeight;
+        float kilogramsWeight = totalWeight / 1000f;
+        System.out.println(totalWeight + " грамм");
+        System.out.println(kilogramsWeight + " килограмм");
 
 
     }
